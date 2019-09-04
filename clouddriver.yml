@@ -15,7 +15,7 @@ kubernetes:
     omitKinds: []
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/spinnaker/.hal/default/staging/dependencies/1573052617-config
+    kubeconfigFile: /home/ubuntu/.hal/default/staging/dependencies/1031763043-config
     checkPermissionsOnStartup: false
     liveManifestCalls: false
     oauthScopes: []
