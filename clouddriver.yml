@@ -15,7 +15,7 @@ kubernetes:
     omitKinds: []
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.hal/default/staging/dependencies/1031763043-config
+    kubeconfigFile: /opt/spin-vault/config/1031763043-config
     checkPermissionsOnStartup: false
     liveManifestCalls: false
     oauthScopes: []
@@ -35,7 +35,7 @@ kubernetes:
     omitKinds: []
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.hal/default/staging/dependencies/1031763043-config
+    kubeconfigFile: /opt/spin-vault/config/1031763043-config
     checkPermissionsOnStartup: false
     liveManifestCalls: false
     oauthScopes: []
