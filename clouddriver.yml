@@ -1,6 +1,26 @@
 kubernetes:
   enabled: true
   accounts:
+   - name: vk-salesforce-0
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces: 
+     - default
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /opt/spin-vault/config/1031763043-config
+    checkPermissionsOnStartup: false
+    liveManifestCalls: false
+    oauthScopes: []
+    oAuthScopes: []
+    onlySpinnakerManaged: false
   - name: openshifth-70
     requiredGroupMembership: []
     providerVersion: V2
